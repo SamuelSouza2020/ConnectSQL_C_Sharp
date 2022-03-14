@@ -2,7 +2,7 @@ using System;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 
-namespace Desafio5
+namespace ConnectServe
 {
     public partial class Form1 : Form
     {
@@ -20,7 +20,7 @@ namespace Desafio5
         {
             InitializeComponent();
 
-            //Teste r·pido pelo xampp sem necessidade de preencher, sem senha.
+            //Teste r√°pido pelo xampp sem necessidade de preencher, sem senha.
             /*server = "localhost";
             database = "connectcsharptomysql";
             user = "root";
